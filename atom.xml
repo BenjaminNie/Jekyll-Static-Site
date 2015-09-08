@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Benjamin Nie</title>
+  <link href="http://niebenjamin.com/atom.xml" rel="self"/>
+  <link href="http://niebenjamin.com"/>
+  <updated>2015-09-08T01:40:58-04:00</updated>
+  <id>www.niebenjamin.com</id>
+  <author>
+    <name>Benjamin Nie</name>
+    <email>ben@niebenjamin.com</email>
+  </author>
+  
+  <entry>
+    <title>Practical Drones</title>
+    <link href="www.niebenjamin.com/2014/11/17/practicaldrones.html"/>
+    <updated>2014-11-17T00:00:00-05:00</updated>
+    <id>http://niebenjamin.com/2014/11/17/practicaldrones</id>
+    <content type="html">&lt;p&gt;While most citizens associate automated drones and robots with warfare, the annoucement made by Jeff Bezos last Christmas planning to use drones for package delivery stirred up countless debates over the country. Though a sky full of package delivering drones may seem far-fetched in the near future, all these conversations helped me realize some stunning possibilities that will become reality in a drone-packed world.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Emergency Response
+Being the victim of a recent house robbery, I&amp;rsquo;ve had fantasies of robotic police drones that respond immediately to 9-11 calls. While gun carrying drones may be more dangerous than beneficial, drones that are able to follow robbery or murder suspects and capture an image of their face (yay OpenCV!) would be a valuable asset to any police department. This would also be great for firefighters, who can now send a flying drone into a house to detect important chemical levels and find any potential survivors before putting their own lives in danger. For health emergencies such as strokes or heart attacks, a drone can carry vital medical equipment to the patient. The biggest disadvantage of modern ambulances is traffic - In a situation where a minute determines life and death, there is not a second to waste. Unlike ambulances, drones can take a straight line route from point A to point B, drastically decreasing the amount of travel time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Search and rescue
+Next time somebody gets stranded on a mountain after a heavy snowfall, drones can be put into action. Potential applications I can see are resource delivery (ex. water and food) and using cameras or thermal vision to locate survivors. However, a key concern of mine is something I encountered during my recent work on OpenCV with my engineering team, UBC Sailbots. Fog and smoke can completely obstruct the vision of both regular and thermal cameras, making their captured images completely useless. This problem needs to be solved before drones can be effectively deployed in these extreme weather conditions.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Remote Monitoring and Mapping
+Using commercial drones, large masses of land can now be captured on video and this information can help in fields such as agriculture, environmental preservation, and asset monitoring. Companies can now purchase these drones to monitor their ships as the cruise across an ocean, providing real-time feedback on the situation. Safaris can use these drones to add surveillence to the skies, preventing poachers from illegal poaching. This mapping technology can also be turned into it&amp;rsquo;s 3D form, where drones can be used to accurately map the 3D image of a building or other physical monument.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Of course, there are only a few potential applications and I am certain there will be countless new drone innovations coming in the next decade. Awesome startups such as Airware, Spire, and Skycatch are all companies seeking to make an impact in this field and I can&amp;rsquo;t wait to see what they accomplish next!&lt;/p&gt;
+</content>
+    <author>
+      <name>Benjamin Nie</name>
+      <uri>www.niebenjamin.com</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Midnight Thoughts</title>
+    <link href="www.niebenjamin.com/2014/11/02/midnightthoughts.html"/>
+    <updated>2014-11-02T00:00:00-04:00</updated>
+    <id>http://niebenjamin.com/2014/11/02/midnightthoughts</id>
+    <content type="html">&lt;p&gt;What Orwell feared were those who would ban books. What Huxley feared was that there would be no reason to ban a book, for there would be no one who wanted to read one. Orwell feared those who would deprive us of information. Huxley feared those who would give us so much that we would be reduced to pasivity and egoism. Orwell feared that the truth would be concealed from us. Huxley feared the truth would be drowned in a sea of irrelevance. Orwell feared we would become a captive culture. Huxley feared we would become a trivial culture, preoccupied with some equivalent of the feelies, the orgy porgy, and the centrifugal bumble-puppy. As Huxley remarked in Brave New World Revisited, the civil libertarians and rationalists who are ever on the alert to oppose tyranny &amp;ldquo;failed to take into account humanity&amp;rsquo;s almost infinite appetite for distractions.&amp;rdquo; In 1984, people are controlled by inflicting pain. In Brave New World, they are controlled by inflicting pleasure. In short, Orwell feared that what we hate will ruin us. Huxley feared that what we love will ruin us.&lt;/p&gt;
+
+&lt;p&gt;-Neil Postman&lt;/p&gt;
+</content>
+    <author>
+      <name>Benjamin Nie</name>
+      <uri>www.niebenjamin.com</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>An Ode to Vim</title>
+    <link href="www.niebenjamin.com/2014/10/28/oldtovim.html"/>
+    <updated>2014-10-28T00:00:00-04:00</updated>
+    <id>http://niebenjamin.com/2014/10/28/oldtovim</id>
+    <content type="html">&lt;p&gt;During a recent conversation with my 12 year old sister, she stared at my screen in an iOS-brainwashed mixed with pre-teen rage disgust &amp;lsquo;What is that program you&amp;rsquo;re using?&amp;rsquo;.  She was of course referring to the Vim editor with my custom color scheme, and her question raised some thoughts in my head. Why do so many software engineers prefer a barebones editor like Vim or Emacs in comparison to feature intensive IDEs such as Visual Studio or Eclipse?. Here are a few that come to mind:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Never having to take your hands off the keyboard. In Vim and Emacs, almost everything that you want to accomplish is simply a keystroke away. Better yet, the commands can be combined! Want to delete a word? Try &amp;rsquo;d w'. How about deleting the entire line? &amp;lsquo;dd&amp;rsquo;. Now, delete all the content from your cursor to the EOF? &amp;rsquo;d GG'. From personal experience, once I was fluent with Vim&amp;rsquo;s shortcuts I was way more effective and efficient in my text editing abilities than I had ever been with a mouse and cursor.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Lightweight. I&amp;rsquo;ll never forget the dark days when I tried running Visual Studio with my 2GB, Intel Pentium powered laptop. Every time I compiled, my laptop sounded like the Big Bad Wolf, as it huffed, and puffed in its desperate attempt to build Hello World.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Versatility. It&amp;rsquo;s great to use the same tool for almost every language I encounter. Whether that&amp;rsquo;s writing a C++ graphics engine, a Linux driver in C, a Python unit test, or a Bash Script, I know I can rely on VIM to get the job done.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Of course, there are also cons to using these lightweight editors. One off the top of my head is searching through a source tree for a particular function or variable. While tools like CScope and PyScope can be added on as Vim plugins to ease the process of search, I still find file navigation to be much faster when using a GUI-based IDE like Eclipse or Visual Studio.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, the choice of editor comes down to user preference and often computational resources. As for me, I can&amp;rsquo;t see myself moving away from Vim anytime soon - It is easy to use, fast, and helps me focus on developing great software. Touche Vim. Touche.&lt;/p&gt;
+</content>
+    <author>
+      <name>Benjamin Nie</name>
+      <uri>www.niebenjamin.com</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Floating Points in C</title>
+    <link href="www.niebenjamin.com/2014/08/20/floatingpoints.html"/>
+    <updated>2014-08-20T00:00:00-04:00</updated>
+    <id>http://niebenjamin.com/2014/08/20/floatingpoints</id>
+    <content type="html">&lt;p&gt;Throughout my university days, C was often the programming language that was used to teach programming principles.  Two variations of number representations showed up repeatedly - integers and floats.  Integers and floats can be 32 or 64 bit, depending on the system, but integers can only represent whole numbers within a (relatively) small range. Meanwhile, floating points can represent both astronomically large and miniscually small numbers, much larger in range in comparison to an integer occupying the same number of bits. My curiousity got the best of me, and I decided ttheir differences in detail.&lt;/p&gt;
+
+&lt;p&gt;The results were both surprising and incredibly interesting. In a 32 bit unsigned integer, each bit simply represents a power of 2. The 0th bit would represent 2&lt;sup&gt;0&lt;/sup&gt;, while the 31st bit would represent 2&lt;sup&gt;31&lt;/sup&gt;. If it were a signed integer, the 31st bit would represent whether the integer is positive or negative, and the magnitude of the integer would be represented by the 30th(2&lt;sup&gt;30&lt;/sup&gt;) to the 0th(2&lt;sup&gt;0&lt;/sup&gt;) bit.&lt;/p&gt;
+
+&lt;p&gt;In a 32 bit float, there are three different sections that are responsible for generating the value - the mantissa, the exponent, and the sign. Their visual representation and equational relationship are seen here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/res/mse-eqn.png&quot; alt=&quot;MSG equation&quot; /&gt;
+&lt;img src=&quot;/res/32-bit-rep.png&quot; alt=&quot;32 bit mantissa representation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, there is 1 bit for the sign, 8 bits for the exponent, and 23 bits for the mantissa. The mantissa holds all the digits present in the number. For example, though 2.313 and 0.02313 differ in value, they have the same digits in the same order, so their mantissas are identical. The 8 bit exponent means a maximum exponent of 256, explaining the reason why floats have a significantly higher maximum value than their counterpart integers. Lastly, let me give some numerical examples. Say the mantissa is 23, the exponent 1, and the sign -, then value of the floating point would be 23^-1. In another example, if the mantissa is 3, the exponent is 52, and the sign +, then the value of the floating point would be 3&lt;sup&gt;52&lt;/sup&gt;. This explains why floats can reach such an astronomically high value, and why you should think twice next time you decide between using an int and a float.&lt;/p&gt;
+</content>
+    <author>
+      <name>Benjamin Nie</name>
+      <uri>www.niebenjamin.com</uri>
+    </author>
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="www.niebenjamin.com/2014/07/12/helloworld.html"/>
+    <updated>2014-07-12T00:00:00-04:00</updated>
+    <id>http://niebenjamin.com/2014/07/12/helloworld</id>
+    <content type="html">&lt;p&gt;Hi there! Welcome to my blog, where I&amp;rsquo;ll be sharing my personal thoughts related to life, tech, food, and travelling. The written language has always been my favorite form of artistic expression, and acts as the fundamental pillar of human thought.  There is so much wisdom and emotion that can be captured through the written word, and I hope to use mine to share my life with all the other inhabitants of this curious world.&lt;/p&gt;
+</content>
+    <author>
+      <name>Benjamin Nie</name>
+      <uri>www.niebenjamin.com</uri>
+    </author>
+  </entry>
+  
+</feed>

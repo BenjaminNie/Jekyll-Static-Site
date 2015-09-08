@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://rsms.me/</loc>
+    <lastmod>2015-09-08T01:40:58-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://rsms.me/about/</loc>
+    <lastmod>2015-09-08T01:40:58-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://rsms.me/archive/</loc>
+    <lastmod>2015-09-08T01:40:58-04:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://rsms.me/2014/11/17/practicaldrones.html</loc>
+    <lastmod>2014-11-17T00:00:00-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   
+  <url>
+    <loc>http://rsms.me/2014/11/02/midnightthoughts.html</loc>
+    <lastmod>2014-11-02T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   
+  <url>
+    <loc>http://rsms.me/2014/10/28/oldtovim.html</loc>
+    <lastmod>2014-10-28T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   
+  <url>
+    <loc>http://rsms.me/2014/08/20/floatingpoints.html</loc>
+    <lastmod>2014-08-20T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   
+  <url>
+    <loc>http://rsms.me/2014/07/12/helloworld.html</loc>
+    <lastmod>2014-07-12T00:00:00-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+   </url>
+   
+</urlset>

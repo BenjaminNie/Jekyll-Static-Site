@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <title>Ben Nie</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
+    <link rel="alternate" type="application/atom+xml" title="Ben Nie" href="/atom.xml">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@rsms">
+    
+    <meta property="fb:admins" content="728642302">
+    <meta property="fb:app_id" content="38027689216">
+    
+      <meta name="description" content="Ben's content">
+    
+    
+    <meta property="og:url" content="http://rsms.me/">
+    <meta property="og:site_name" content="rsms.me">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB" />
+    
+    
+    <script>
+  //html { zoom:50%; }
+  if (window.addEventListener) {
+    var sidebarAdjustTimer;
+    function updateOrientation(orientationChangeEvent) {
+      if (sidebarAdjustTimer) clearInterval(sidebarAdjustTimer);
+      //console.log('window.orientation -> '+window.orientation);
+      if (window.orientation === -90 || window.orientation === 90) {
+        // landscape
+        var sidebar = document.getElementById('sidebar');
+        if (!sidebar.src || sidebar.src === '') {
+          sidebar.src = '/archive/sidebar.html';
+        }
+        sidebarAdjustTimer = setInterval(function() {
+          var height = Math.round(document.height * 1.6);
+          if (sidebar.height != height) {
+            sidebar.height = height;
+            sidebar.style.height = height + 'px';
+          }
+        },500);
+      } else {
+        // portrait
+      }
+    }
+    window.addEventListener('orientationchange', updateOrientation);
+    document.addEventListener('DOMSubtreeModified', function(ev) {
+      if (document.getElementById('sidebar')) {
+        document.removeEventListener('DOMSubtreeModified', arguments.callee);
+        updateOrientation();
+      }
+    });
+  }
+</script>
+    
+  </head>
+  <body>
+    <!--script>/*
+      var s;
+      if (document.location.hostname === 'rsms.me') {
+        s = document.createElement('script');
+        s.async = true;
+        s.src = "http://connect.facebook.net/en_US/all.js#appId=38027689216&xfbml=1";
+        document.getElementsByTagName('head')[0].appendChild(s);
+      }
+      
+      if (window.navigator.userAgent.indexOf('iPad') != -1) {
+        document.documentElement.className = 'ios ipad';
+        window.rsmsHostIsIOS = 'ipad';
+      } else if (window.navigator.userAgent.indexOf('iPhone') != -1) {
+        document.documentElement.className = 'ios iphone';
+        window.rsmsHostIsIOS = 'iphone';
+      }
+    */</script>
+    <div id="fb-root"></div><script></script-->
+    <iframe id="sidebar"></iframe>
+    <header>
+      <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/signature-2-2.png" width="160" height="50" alt="Signature"></a></h1>
+      <ul class="navigation">
+        <li><a href="/projects/" title="Projects I am or was involved in">Projects</a></li>
+        <li><a href="/archive/" title="Archived articles">Archive</a></li>
+        <li><a href="/about/">About me</a></li>
+      </ul>
+    </header>
+    <!--div class="wrapper content"-->
+      <link rel="fav/apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="fav/apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="fav/apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="fav/apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="fav/apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="fav/apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="fav/apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="fav/apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="fav/apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="fav/icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="fav/icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="fav/icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="fav/icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="fav/manifest" href="/manifest.json">
+<meta name="fav/msapplication-TileColor" content="#ffffff">
+<meta name="fav/msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="fav/theme-color" content="#ffffff">
+<!-- <div class="content full-bleed intro">
+  Welcome to my homepage!!1
+</div> -->
+<div class="posts">
+  <div class="content full-bleed" id="recent-posts">
+  <a
+    href="/2014/11/17/practicaldrones.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Practical Drones</div>
+      
+        <!-- <div class="title">Practical Drones</div> -->
+        <info datetime="">
+          Nov 2014
+        </info>
+        
+        <span class="body">While most citizens associate automated drones and robots with warfare, the annoucement made by Jeff Bezos last Christmas planning to use drones... (cont'd)</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a><a
+    href="/2014/11/02/midnightthoughts.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Midnight Thoughts</div>
+      
+        <!-- <div class="title">Midnight Thoughts</div> -->
+        <info datetime="">
+          Nov 2014
+        </info>
+        
+        <span class="body">What Orwell feared were those who would ban books. What Huxley feared was that there would be no reason to ban a book, for there would be no one who wanted to read one... (cont'd)</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a><a
+    href="/2014/10/28/oldtovim.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">An Ode to Vim</div>
+      
+        <!-- <div class="title">An Ode to Vim</div> -->
+        <info datetime="">
+          Oct 2014
+        </info>
+        
+        <span class="body">During a recent conversation with my 12 year old sister, she stared at my screen in an iOS-brainwashed mixed with pre-teen rage disgust 'What is that program you're using?'... (cont'd)</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a><a
+    href="/2014/08/20/floatingpoints.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Floating Points in C</div>
+      
+        <!-- <div class="title">Floating Points in C</div> -->
+        <info datetime="">
+          Aug 2014
+        </info>
+        
+        <span class="body">Throughout my university days, C was often the programming language of choice in my courses.  Two variations of number representations showed up repeatedly... (cont'd)</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a><a
+    href="/2014/07/12/helloworld.html" class="post-excerpt">
+      <div class="padded-content">
+        <div class="title">Hello World</div>
+      
+        <!-- <div class="title">Hello World</div> -->
+        <info datetime="">
+          Jul 2014
+        </info>
+        
+        <span class="body">Hi there! Welcome to my blog, where I'll be sharing my personal thoughts related to life, tech, food, and travelling... (cont'd)</span>
+        
+      <!-- post.photo_url -->
+      </div>
+    </a>
+    <div class="breaker"></div>
+    <div class="end">
+      <a href="/archive/">More...</a>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function(f){
+  var onload = function(f) {
+    if (window.addEventListener) {
+      window.addEventListener('DOMContentLoaded', f, false);
+    } else {
+      window.attachEvent('onload', f);
+    }
+  };
+  onload(function(){
+    f();
+    if (window.addEventListener) {
+      window.addEventListener('resize', f, false);
+    } else {
+      window.attachEvent('resize', f);
+    }
+  });
+})(function(){
+  var winw = window.innerWidth, w; //, width_thresholds = [680, 780];
+  w = window.__post_grid_width;
+
+  if ( (w !== undefined) &&
+       ( (w === 680 && winw < 680) ||
+         (w === 780 && winw >= 680 && winw < 780) ||
+         (w === 10000 && winw >= 780)
+       )
+     )
+  {
+    // console.log('noop w:', w+ ', winw:', winw);
+    return;
+  } else {
+    window.__post_grid_width = w =
+      winw > 780 ? 10000 :
+      winw > 680 ? 780 :
+                   680;
+    // console.log('op w:', w);
+  }
+
+  var posts = document.getElementById('recent-posts');
+  var child_nodes = posts.childNodes, k, node, h,
+      col_width, col0_y, col1_y, col1_x,
+      origin = {x:0, y:0}, node_count = 0, is_col0, row0_max_y;
+
+  posts.style.position = (window.__post_grid_width <= 680) ? null : 'relative';
+
+  for (k in child_nodes) {
+    node = child_nodes[k];
+    if (node.nodeType === Node.ELEMENT_NODE) {
+      if (node.className === 'breaker') {
+        if (window.__post_grid_width <= 680) {
+          node.style.height = null;
+        } else {
+          node.style.height = (Math.max(col0_y, col1_y) - row0_max_y) + 'px';
+        }
+        break;
+      }
+      if (col0_y === undefined) {
+        origin.x = node.offsetLeft;
+        origin.y = node.offsetTop;
+        col_width = node.clientWidth;
+        col0_y = origin.y + node.clientHeight;
+        row0_max_y = col0_y;
+      } else {
+        if (col1_y === undefined) {
+          col1_y = origin.y + node.clientHeight;
+          col1_x = origin.x + node.clientWidth;
+          if (col1_y > row0_max_y) {
+            row0_max_y = col1_y;
+          }
+        } else {
+          if (window.__post_grid_width <= 680) {
+            // console.log('Clear');
+            node.style.position = null;
+            node.style.width = null;
+            node.style.left = null;
+            node.style.top = null;
+          } else {
+            is_col0 = (node_count % 2) === 0;
+            node.style.position = 'absolute';
+            node.style.width = col_width + 'px';
+            if (is_col0) {
+              node.style.left = origin.x + 'px';
+              node.style.top = col0_y + 'px';
+              col0_y += node.clientHeight;
+            } else {
+              node.style.left = col1_x + 'px';
+              node.style.top = col1_y + 'px';
+              col1_y += node.clientHeight;
+            }
+          }
+          // console.dir(node);
+        }
+      }
+      ++node_count;
+    }
+  }
+
+});
+</script>
+
+    <!--/div-->
+    
+    
+    
+    
+    
+    
+    <footer>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
+        <img src="/res/cc-by.png" class="cc"></a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+      </p>
+    </footer>
+    
+    
+    <script>
+  var n,i,L,cn,v = document.getElementsByTagName('pre');
+  for (i=0,L=v.length;i<L;++i) {
+    n = v.item(i);
+    if ((cn = n.firstChild) && cn.nodeName == 'CODE') {
+      if (cn.className.indexOf("none") !== -1 || cn.className.indexOf("txt") !== -1) {
+        cn.className = 'nohighlight';
+      }
+    }
+  }
+</script>
+<link rel="stylesheet" media="all" href="/res/highlight.css" type="text/css">
+<script src="/res/highlight.js"></script>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9078556-2']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>
